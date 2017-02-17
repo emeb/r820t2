@@ -13,3 +13,8 @@ to access registers and set frequency & gain parameters.
 r820t2_breakout - KiCAD PCB design.
 
 
+LICENSE
+-------
+
+The PCB design is licensed separately from the driver code. Please see
+the LICENSE files within each sub-directory.
