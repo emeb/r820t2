@@ -33,3 +33,14 @@ Debugging
 	target extended-remote localhost:3333
 
 4) Start debugging!
+
+LICENSE
+-------
+
+The r820t2 driver code (r820t2.[ch]) herein originated with the Airspy product
+which derived from the Linux driver. Consequently my revisions are subject to
+the LICENSE file from those projects.
+
+The CMSIS and StdPeriph directories are from ARM ans ST Microelectronics and
+are suject to the licenses therein.
+
