@@ -692,7 +692,7 @@ void R820T2_init(void)
     r820t_freq = 144000000;
     
     /* initialize the device */
-    for(i=R820T2_WRITE_START;i<=R820T2_NUM_REGS;i++)
+    for(i=R820T2_WRITE_START;i<R820T2_NUM_REGS;i++)
         R820T2_i2c_write_reg(i, r82xx_init_array[i]);
 
     /* Calibrate */
